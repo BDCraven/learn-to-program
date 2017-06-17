@@ -4,9 +4,9 @@ def shuffle(ary)
   shuffled_ary = []
   item = []
 
-while unshuffled_ary.length > 0
+  while unshuffled_ary.length > 0
     item << unshuffled_ary[rand(unshuffled_ary.length)]
-    unshuffled_ary -= item # why doesn't delete or - remove the item from
+    unshuffled_ary -= item # why doesn't delete remove the item from
     # the array?
     shuffled_ary += item # why doesn't append add the item to the array?
     item.pop
